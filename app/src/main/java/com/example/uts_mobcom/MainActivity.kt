@@ -61,7 +61,7 @@ fun HomeScreen(onNavigate: (String) -> Unit) {
             verticalArrangement = Arrangement.spacedBy(32.dp, Alignment.CenterVertically),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            Text("Selamat Datang!")
+            Text("Dashboard")
 
             Button(onClick = { onNavigate(Destinations.ADD_CONTACT) }) {
                 Text("Tambah dan Edit Kontak")
